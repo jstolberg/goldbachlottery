@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The Goldbach Lottery</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="containter">
+    <h1 id="title">★ THE GOLDBACH LOTTERY ★</h1>
+    <p>
+      Always dreamt of becoming a <em>world famous mathematician</em>? Feeling too lazy to actually <em>prove stuff</em>?<br />
+      Then try <em>THE GOLDBACH LOTTERY</em> and take your easy chance at <em>contradicting</em> the centuries old 
+      <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Goldbach%27s_conjecture">Goldbach's Conjecture</a>.<br />
+      Just type in your <em>favourite even number</em> (larger than <a target="_blank" rel="noopener noreferrer" href="https://sweet.ua.pt/tos/goldbach.html">4.000.000.000.000.000.000</a>) and play! <small><a href="FAQ.html">[FAQ]</a></small><br />
+    </p>
+    <div class="input-button-group">
+      <input type="text" id="numberInput" placeholder="Enter your guess..." autofocus />
+      <button type="submit" onclick="submit()">Play</button>
+    </div>
+    <div id="output"></div>
+  </div>
+  <script src="goldbach.js"></script>
+</body>
+</html>

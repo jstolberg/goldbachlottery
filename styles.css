@@ -1,0 +1,102 @@
+body {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: sans-serif;
+  padding: 2rem;
+  color: #463100; 
+}
+
+.container {
+  max-width: 800px;
+  width: 100%;
+}
+
+.input-button-group {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.input-button-group input[type="text"] {
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  border: 2px solid #d2b48c;
+  border-right: none;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+  width: 80%;
+  color: #463100; 
+}
+
+.input-button-group button {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border: 2px solid #d2b48c; 
+  background-color: #fff8dc; 
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  font-weight: bold;
+  color: #a38434;
+}
+
+.input-button-group button:hover {
+  background-color: #f5deb3;
+}
+
+h1 {
+  font-size:x-large;
+  margin-bottom: clamp(20px, 5vw, 60px);
+}
+
+#title {
+  font-family: 'Georgia', serif;
+  font-weight: 900;
+  color: #c8961b; 
+  font-size: clamp(1rem, 5vw, 3em); 
+}
+
+p {
+  line-height: 1.7;
+  color: #463100; 
+}
+
+a {
+  color: #996e00;
+}
+
+em {
+  font-weight: 900;
+  font-style: normal;
+  color: #996e00; 
+}
+
+#output {
+  margin-top: 2rem;
+  word-break: break-all;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
+
+.prime-partition {
+  margin-top: 5px;
+  margin-bottom: 30px;
+  font-size: 0.95rem;
+}
+
+.faq-item {
+  margin-bottom: 1.5rem;
+}
+
+.question {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+.answer {
+  margin-left: 1rem;
+  text-align: left;
+}
